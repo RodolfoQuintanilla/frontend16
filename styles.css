@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+:root {
+
+             --Violet: hsl(257, 40%, 49%);
+             --SoftMagenta: hsl(300, 69%, 71%);
+
+}
+
+
+body {
+             font-family: 'Open Sans', sans-serif;
+             background-image: url(images/bg-desktop.svg);
+             background-size: cover;
+             object-fit: cover;
+             background-repeat: no-repeat;
+             background-color: var(--Violet);
+
+
+}
+
+
+@media screen and (max-width: 700px) {
+             body {
+                          background-image: url(images/bg-mobile.svg);
+
+             }
+}
+
+.section {
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: center;
+             margin-top: 10%;
+             padding: 20px;
+             justify-content: space-between;
+
+}
+
+.contenimg__logo {
+             width: 250px;
+
+}
+
+.contenimg__img {
+             width: 800px;
+
+}
+
+.textos {
+             height: auto;
+             width: 50%;
+             color: white;
+}
+
+.textos p {
+             height: 500px;
+             width: 500px;
+}
+
+@media screen and (max-width:700px) {
+             .contenimg__img {
+                          width: 100%;
+             }
+}
